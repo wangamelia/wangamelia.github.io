@@ -16,9 +16,8 @@
 title: DREU 2018
 email: aw1998@uw.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello! This blog is for documenting my summer 2018 DREU experience. Please don't mind the site 
+  being under construction as I familiarize myself with developing, designing, and updating!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
