@@ -4,13 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Hello! I am a junior at the University of Washington majoring in Human Centered Design and Engineering, planning to graduate in 2020. I will be documenting my 10 weeks at the University of Iowa's Computer Science department here through the CRA-W's DREU program. 
+Hello! I am a junior at the University of Washington majoring in Human Centered Design and Engineering, planning to graduate in 2020. I will be documenting my 10 weeks at the University of Iowa's Computer Science department here through the CRA-W's DREU program. ![kyle rector](_site/about/kyle.png)
 
-# About My Mentor
+
+# My Mentor
 
 [Kyle Rector](http://homepage.cs.uiowa.edu/~krector/) is an assistant professor in the University of Iowa's department of Computer Science. Her area of research is in HCI, specializing in accessible technology.
 
-![kyle rector](kyle.png)
+![kyle rector](_site/about/kyle.png)
 
 
 # Research Project
