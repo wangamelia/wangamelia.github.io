@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Week 02"
+date:   2018-07-14 17:44:22 -0500
+categories:
+---
+![sunset over the capitol building](week01.jpg)
+<br>
+Along with adjusting to life in Iowa City, I spent my first week gathering knowledge and context to an existing research project that I am joining. It surrounds the implications of lack of accessible exercise for blind people, and addresses the issue by developing, designing, and evaluating an exer-game.
+
+I met with my team, which is led by a graduated master's student who is leaving halfway through the summer. I am the only DREU student, but there is one other undergrad my age working with us so we have a lot to learn together!
