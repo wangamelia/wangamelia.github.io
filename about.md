@@ -8,7 +8,7 @@ Hello! I am a junior at the University of Washington majoring in Human Centered 
 
 
 # My Mentor
-<img style="float: right;" src="/images/kyle.png">
+<img style="float: right;" src="/images/kyle.png" width="250px"/>
 
 
 [Kyle Rector](http://homepage.cs.uiowa.edu/~krector/) is an assistant professor in the University of Iowa's department of Computer Science. Her area of research is in HCI, specializing in accessible technology.
