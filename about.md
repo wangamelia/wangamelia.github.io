@@ -3,12 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
+<img style="float: left;" src="/images/amelia.png" width="250px"/>
 
-Hello! I am a junior at the University of Washington majoring in Human Centered Design and Engineering, planning to graduate in 2020. I will be documenting my 10 weeks at the University of Iowa's Computer Science department here through the CRA-W's DREU program.![me](images/amelia.png)
+Hello! I am a junior at the University of Washington majoring in Human Centered Design and Engineering, planning to graduate in 2020. I will be documenting my 10 weeks at the University of Iowa's Computer Science department here through the CRA-W's DREU program.
 
-
-# My Mentor
 <img style="float: right;" src="/images/kyle.png" width="250px"/>
+# My Mentor
 
 
 [Kyle Rector](http://homepage.cs.uiowa.edu/~krector/) is an assistant professor in the University of Iowa's department of Computer Science. Her area of research is in HCI, specializing in accessible technology.
