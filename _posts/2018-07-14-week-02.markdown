@@ -5,6 +5,6 @@ date:   2018-07-14 17:44:22 -0500
 categories:
 ---
 
-![view through cs building 2nd floor](images/week02.png)
+![view through cs building 2nd floor](/images/week02.png)
 
 Week two kicked into gear with project brainstorming, video coding, and 
