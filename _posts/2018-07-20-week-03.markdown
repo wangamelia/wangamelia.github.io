@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Week 03"
+date:   2018-07-20 17:44:22 -0500
+categories:
+---
+
+![mural under construction downtown](/images/week03.jpg)
+
+This week, my cousin came to visit so I got to try out a lot a lot of restaurants and activities downtown... which is about two blocks away from campus! 
+
+Back at the lab, I started to put together a project proposal document surrounding accessibility in programming. I am learning the ropes of NVDA, a open source screen reader, as well as developing an add-on for eclipse! 
+
+For the video coding project, we had to mee three times this week-- some labels were so subjective that we had to discuss their definitions and purposes many times before we could move forward. Also for our last meeting, BORIS crashed as I was exporting the data that I was supposed to bring and discuss. This should've been expected as I mentioned last week it was pretty buggy but my lesson was learned and I now try to save my projects as frequently as possible to avoid this cliche disaster... 
