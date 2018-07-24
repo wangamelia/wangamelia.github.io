@@ -5,7 +5,7 @@ date:   2018-07-07 17:44:22 -0500
 categories:
 ---
 
-![sunset over the capitol building](images/week01.jpg)
+![sunset over the capitol building](images/week01.png)
 <br>
 Along with adjusting to life in Iowa City, I spent my first week gathering knowledge and context to an existing research project that I am joining. It surrounds the implications of lack of accessible exercise for blind people, and addresses the issue by developing, designing, and evaluating an exer-game.
 
