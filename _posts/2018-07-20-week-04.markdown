@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Week 04"
+date:   2018-07-28 17:44:22 -0500
+categories:
+---
+
+![code brainstorm on whiteboard](/images/week04.jpg)
+
+We're almost at our half way mark, and I am getting used to life in this city! Soon I'll have to prepare to move dorms and experience the start of the new semester-- this school starts a whole month earlier than UW so it'll be cool to get to see the different environments!
+
+Next week, we want to be able to discuss Cohen's Kappa for our video codes. Cohen's Kappa is an agreement statistic for qualitative coding that takes into account agreement by chance. So this week, we had about 4-5 business days to label seven videos (I came in on the weekend to lighten up my daily load). Thankfully I can say I learned from my data exporting mishap last week and practiced saving my data frequently. I'm excited to see the results, and our work get turned into some cool statistics.
