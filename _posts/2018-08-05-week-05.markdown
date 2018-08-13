@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Week 05"
+date:   2018-08-05 17:44:22 -0500
+categories:
+---
+
+![sunset in new dorm](/images/week05.jpg)
+
+We have officially hit our halfway mark, and this week has been a big week to signify it. The first half hasn't felt too short, but planning the next few weeks really makes me realize how little time I have left here! This week I also made the move to a new building on campus to get ready for the University's fall semester, and I'm excited to see the area become more active. 
+
+We finally finished coding our videos for Cohen's Kappa, and we decided to remove three labels from our codebook. Here is a snippet of the results and some of the labels that did/didn't make the cut:
+![cohen snippet](/images/cohen_sample.png)
+
+One of them was a yes/no type which was surprising to get rid of because I thought agreement would be easy, but the low number of options also caused chance to play a much bigger factor. On the bright side, coding videos has become much easier!
+
+Now that most of the heavier work on this project is over, I can focus more on my personal project! Up until now I've been reading up on issues in programming IDEs for blind users and various research in pursuit of making them more accessible, and I'll get to start and try to develop something on my own. More details on that in the next few weeks.
