@@ -14,4 +14,4 @@ We finally finished coding our videos for Cohen's Kappa, and we decided to remov
 
 One of them was a yes/no type which was surprising to get rid of because I thought agreement would be easy, but the low number of options also caused chance to play a much bigger factor. On the bright side, coding videos has become much easier!
 
-Now that most of the heavier work on this project is over, I can focus more on my personal project! Up until now I've been reading up on issues in programming IDEs for blind users and various research in pursuit of making them more accessible, and I'll get to start and try to develop something on my own. More details on that in the next few weeks.
+Now that most of the heavier work on this project is over, I can focus more on my personal project! Up until now I've been reading up on issues in programming IDEs for blind users and various research in pursuit of making them more accessible, and I'll get to start and try to develop something on my own. More details on that in the next few weeks!
