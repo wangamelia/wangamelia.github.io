@@ -6,7 +6,7 @@ categories:
 ---
 
 ![Hilarious photo I found on the department bulletin board](/images/week06.jpg)
-*Hilarious photo I found on the department bulletin board
+*Hilarious photo I found on the department bulletin board*
 
 The weeks are flying by! We're getting 3 videos done a day-- more than halfway done. As for my personal project, I've been focusing on PyCharm as an IDE that is lacking in accessibility. It is important to improve existing IDEs/systems to be more accessible rather than creating new/seperate ones to not only allow these users to integrate and participate as a social responsibility, but to give these users the same options and advantages that sighted ones do-- especially with sophisticated products with such a visual emphasis like typical IDEs. More details are discussed in my project proposal, which I'll attach on my week 10 report.
 
