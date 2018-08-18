@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Week 07"
+date:   2018-08-18 17:44:22 -0500
+categories:
+---
+
+![My dorm door](/images/week07.jpg)
+*My dorm door*
+
+This week, I went to a graduate student orientation event with Kyle and got to meet people in the department, including her incoming PhD students! There will be four total, all women in HCI which has been super exciting and inspiring to see. I also got a roommate this week as students are moving in for the school year (which starts in a few days). It's been really nice to have company around and understand the campus more. Next week, my family is visiting and we're going to take a quick weekend trip to Chicago as well as take a look at the university! I've missed them a lot, and I think the timing works out well to give me a boost right before I'll be wrapping things up here in Iowa. 
+
+It's the end of week 7-- I've made progress on add-on development, my project proposal, and I'm finally done with video coding! The add on has to be written in python, which I have very little experience in, but this means making progress feels even more rewarding as I'm learning so much along the way. I have a little bit more time to work on development before an expert in accessible technology will test it out and evaluate it at the end of the month. There's a lot to look forward to, and the weeks are moving quick!
