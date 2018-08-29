@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Week 08"
+date:   2018-08-24 17:44:22 -0500
+categories:
+---
+
+![View of Chi City](/images/week08.jpg)
+*Chicago! It's been so long since I've seen skyscrapers!*
+
+I am in Chicago this weekend with my family, so it's been a short break from the lab. We spent some time this week going over the interview transcriptions from the team project and brainstormed themes to discuss in the paper. Development for my personal project continues, and I am sending out it out for testing next week! I ran into an issue that set my progress back another day, as I couldn't figure out why NVDA wasn't working the way it had been previously. This was a good lesson though because after lots of reading forums, uninstalling, reinstalling, and paranoia, I regrouped with Kyle and found that a bug in my add-on was the cause of all of it. 
+
+I have only two weeks left here, so I'll be finishing up my projects, testing them, and writing a final report to link on this site. 
