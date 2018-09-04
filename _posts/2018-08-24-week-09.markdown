@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Week 08"
-date:   2018-08-24 17:44:22 -0500
+title:  "Week 09"
+date:   2018-09-02 17:44:22 -0500
 categories:
 ---
 
