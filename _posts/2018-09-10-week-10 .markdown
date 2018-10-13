@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Week 09"
-date:   2018-09-02 17:44:22 -0500
+title:  "Week 10"
+date:   2018-09-10 17:44:22 -0500
 categories:
 ---
 
-![View after hurricane](/images/week09.jpg)
-*My view after the hurricane-- it was only 7pm!*
+![flying home](/images/week10.jpg)
+*Flying home, plane over Minneapolis*
 
-This week, lots happened inside and outside the lab. I got back to work, wrapped up my personal project, got sick, and I experienced my first hurricane warning. The weather was awful for a few hours, but thankfully it just passed through. I was also indoors the whole time, and we were just directed to find lowest ground and wait it out. I also got a nice picture of the sky afterwards! 
+I am posting this way after my actual week 10 of research, but with memories and insights that have lasted! Week 10 went by the fastest of them all-- I sent in my project for evaluation and a paper for CHI with my name on it. I spent this last week writing up my project report, saying my goodbyes, and presenting my experience at our last HCI lab meeting. 
 
-Getting sick really hindered my development which was hard to accept this week, especially being my second to last week in Iowa and my project needs to get evaluated by others. I spent then usual amount of time in lab but things were moving much slower and progress became so much more difficult. Kyle was able to test out my project remotely as she was in Mountain View for the week and gave me really valuable feedback. So even though I wasn't able to keep adding new features, I feel that my code is much more robust and what I currently have has been able to improve a lot.
+I've never missed home more in my life, but I've also seen so much value in my 10 weeks in Iowa City. I've learned so much from Kyle, not only about accessibility research, but also from her leadership, kindness, and wisdom. Back in Washington, my perspective has changed with the awareness of accessibility and that is something I'm proud to take away. 
 
-Next week is my final week! I will mostly be working on my project report, which I'll link on this website when I'm done. I cannot believe how fast this summer went by, and I'm sad that I'll have to leave the friends I've made in this short time. 
+you can [get the PDF](https://wangamelia.github.io/images/Project%20Report.pdf) directly.
