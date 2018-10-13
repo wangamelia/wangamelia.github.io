@@ -18,9 +18,9 @@ email: aw1998@uw.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Hello! This blog is for documenting my summer 2018 DREU experience. Please don't mind the site 
   being under construction as I familiarize myself with developing, designing, and updating!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://wangamelia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: "wangamelia"
 github_username:  wangamelia
 
 # Build settings
