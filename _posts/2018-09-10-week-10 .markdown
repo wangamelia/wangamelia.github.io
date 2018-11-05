@@ -15,7 +15,7 @@ I've never missed home more in my life, but I've also seen so much value in my 1
 you can view my individual project report [here](https://wangamelia.github.io/images/Project%20Report.pdf)
 and my presentation slides [here](https://docs.google.com/presentation/d/1nGmn2Itf1BPBB9y3LJ-d3qW2wP5v_jc9-89uie6lkPg/edit?usp=sharing).
 
-For website display purposes for the CRA-W organization, [clicking here](https://wangamelia.github.io/images/amelia_dreu_website.tar.gz)} will download the tar file that contains this website.
+For website display purposes for the CRA-W organization, [clicking here](https://wangamelia.github.io/images/amelia_dreu_website.tar.gz) will download the tar file that contains this website.
 
 Thank you Kyle Rector, the University of Iowa, and the Computing Research Association for this experience!
 
