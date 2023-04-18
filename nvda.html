@@ -16,7 +16,7 @@
   gtag('config', 'UA-99083997-2');
 </script>
 
-		<title>UX internship</title>
+		<title>CRA</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -29,63 +29,106 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1>redesigning UW's
-recreational pages</h1>
-<p>University Marketing and Communications UX internship</p>
-<p><a href="index.html">
+						<h1>accessibility in computing</h1>
+						<p>Over the course of my research internship at the University of Iowa, I created an add-on for PyCharm, a python based IDE to create a more accessible environment for users with visual impairments. This project was driven by a 2017 study that interviews software developers with visual impairments.</p>
+						<p><a href="index.html">
 						 <span class="icon solid style2 fa-home"></span> 
 						 </a> </p>
 					</header>
+
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Content -->
 							<section id="content" class="main">
-								<span class="image main"><img src="images/UWILD.png" alt="" /></span>
+								<span class="image main"><img src="images/iowa.png" alt="" /></span>
 								<h2>Background</h2>
-									<blockquote><p>The University Marketing and Communications (UMAC) team works on projects that consist of brand new campaigns and maintenance/improvement of existing pages. <br> <br>
+In modern software development, IDEs (Integrated Development Environments) play a critical role in efficient workflow but rely heavily on visual cues. Programming, with the correct logic and support, should be an accessible skill but even accessible environments within IDEs fail to give visually impaired users an understanding of their code to the same level as their sighted counterparts. Workarounds and compatibility issues with their screen readers are often inconvenient and overwhelming, forcing many to default to simpler editors. 
 
-One of my first projects as User Experience Intern for UMAC was to improve the layout and information architecture of the existing UWild site.</p> </blockquote>
+								<p>Blind programmers are put in a difficult spot in which the IDEs being used by their colleagues are not accessible to them. Many of these users feel like they are lacking and don’t want to feel like they stand out more by calling attention to it. Some have taken these issues into their own hands and write custom scripts as a workaround to their barriers, but those who have succeeded only represent a small and experienced number of programmers. Barriers still exist for the majority of blind programmers, so there is still a need for technology that supports them.
+</p>
 
-<p>The university hosts hundreds of domains under their name, with varying user groups and content to display. Since their brand refresh in 2015, the UMAC team has been consulting websites to increase unification under consistent and effective branding. In this case, we tackled the Intramural Activities site, which offers free and reduced-cost activities to students. UWild is a branch of the IMA that hosts outdoor and off-campus adventures, with a website that hasn't seen a design update in over a decade.</p>
+								<p> My approach used insights from a 2017 study, which surveyed industry professionals with visual impairments. Its findings showed that many users develop their own workarounds to use IDEs to prevent further separation from their colleagues. One of the most popular tools included NVDA, a free and open source screen reader, and one of the most popular professionally used languages was Python. Over the course of 10 weeks, I developed a plugin for Pycharm Professional that works with NVDA as an add-on to align with insights from this study. This add-on aims to support efforts and help users feel more integrated with coworkers/peers.</p>
+
+								<h2>Literature Review </h2>
+
+								<p>Attempts to understand and resolve issues for blind programmers have increased over the years. These include design solutions like developing different code structures [2], using tactile aid [3], as well as conducting interviews of blind users already in the field [1]. Together, these identify accessibility issues in programming and provide insight to integrating solutions. </p>
+
+								<ul><li>Design: StructJumper Baker et al. [2] developed a tool which allows screen reader users to move through their code quickly, communicating hierarchical information through sound. This eclipse add-on helps present tree-based information, which is important to understand the context and structure of their code, without losing their place in the editor. </li>
+								<li>Design: Blocks4All Milne [3] created a prototype to teach programming concepts to blind students using touchscreen laptops to test in schools. Their evaluation of block-based environments gave context to current issues in design compared to traditional coding.They further revealed fived accessibility barriers in programming. </li>
+								<li> SODBeans: SODBeans is a design intervention by Stefik et al. [4] that identifies the difficulty of debugging and the visual emphasis it has. They approach this by creating their own auditory based programming environment with a code compiler that sonifies programming errors. </li>
+								</ul>
+
+								<h3>Interviews</h3>
+
+								<p>Albusays et al. [1] surveys blind developers who use and work around IDEs despite their complexity and inaccessibility. This exploratory study provided insight into the challenges and workarounds in the industry, as well as user preferences and pain points to improve on for future work. These studies and tools reveal the need for more solutions that can be worked into the industry.</p>
+
+											<div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/whiteboard.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/boris.png" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/excel.png" alt="" /></span></div>
+											</div>
+										</div>
+<section>
+
+<h2>Approach </h2>
+<p>NonVisual Desktop Access (NVDA) is a python-based open source screen reader for Microsoft Windows. It has a rich community of developers who create plugins which enables users to also make custom solutions for different desktop applications. It is completely free to use and does not require any additional hardware. I found that NVDA was the best choice as opposed to something that is just as popular like Job Access With Speech (JAWS), which charges a recurring membership fee. From here, most other ‘popular’ screen readers fall far below in use compared to NVDA and JAWS.</p>
+<p>Java Access Bridge (JAB) is the program that makes this add-on possible. It allows assistive technologies to read information about java components. More specifically, it allows accessibility information and features to become visible to NVDA. Without it, PyCharm is completely inaccessible. To get access to Java applications, NVDA needs some way to communicate with Java Accessibility Utilities. JAB is the ‘bridge’ for this communication.</p>
+
+<span class="image fit"><img src="images/nvdadiagram.png" alt="" /></span>
+
+
+<p>I chose to create an add-on for the software integrated development environment (IDE) Pycharm because it is a popular choice for professional use but falls behind many others in accessibility for blind programmers. From the surveys by Albusays et al, Pycharm was reported as the second most popular programming IDE used by the surveyed blind users, with Notepad++ being the most popular overall [1]. From the interviews, Pycharm was described as not fully accessible by multiple users. In fact, many of the participants who used Pycharm also used NVDA specifically for the purpose of writing their own custom add-ons to improve the accessibility of the IDE. </p>
+
+<h2>Add-on features and process</h2>
+<p>I’ve had python experience before, but I relied heavily on the examples and descriptions in the NVDA add on development guide. Much of the process of developing the code was ‘finding’ where elements were within the objects through NVDA and giving them an action and/or cue. This way, I could reveal important cues that are buried/need to be navigated to, and make them accessible instead with one assigned key action. </p>
+
+
+<span class="image fit"><img src="images/gestures.png" alt="" /></span>
+
+
+<h3>Line Numbers (NVDA+Shift+F3) and Column Number (NVDA+Shift+F4) </h3>
+<p>One of the most inconvenient issues with Pycharm was that their line and column number elements were not designed to be readable by a screen reader. Understanding the location of any lines of code is important for understanding basic organization and orientation in programming. Line length gives insight to code style which is very much a visually focused detail important in keeping things clean and understandable by users. This feature reads aloud line information. The implementation was straightforward as I made a script that navigated to the highlighted line, isolated the line number value, and read it out loud.</p> 
+<h3>Error Descriptions (NVDA+Shift+F7) </h3>
+<p>Locating and understanding errors is somewhat accessible in Pycharm with keyboard shortcuts because the elements exist, but no audio cues are provided when coming across them in code. Even if users manually check for errors, ‘there is no clear indication where to find the problem’ even with the Java Access Bridge and screen reader support [1]. I created this feature to work with the existing process. It lets the user know what is trying to be communicated when navigating through errors/warnings. F2 navigates the user directly to errors, ctrl+F1 brings up the brief description of the error, and NVDA+Shift+F7 reads the detailed information. What helped most in the end was using the NVDA basic API (api.py), which allowed me to use a focus and navigator object to navigate through the parent-child properties of the object within Pycharm’s UI. I would find the object to cue through trial and error using obj.next/previous/parent/firstChild/lastChild attributes. Once I found the object to cue, I would record the path to that object and write a script to move through the path and either read out loud or make a beep to communicate information. </p>
+<p>For example, the code below demonstrates a case where the Pycharm error is in the foreground of the application. To get the path to read the error message, I manually found the error message buried in the children of the foreground object. 
+
+<span class="image fit"><img src="images/errorspeak.png" alt="" /></span>
+
+
+<p>While writing this script, I found that Pycharm doesn’t reveal anything when a user becomes error-free either. To design for this case, I added a sound in the script when there are no errors left to navigate through and no error description is presented. Additionally this signals to the user that their code is error-free when trying to use any of these commands.</p>
+<h3>Run/Stop</h3>
+<p>This feature works with the existing PyCharm commands for running and stopping code. Normally, PyCharm provides no audio alerts when code is run and instead silently executes, even with accessibility enabled. To develop this script, I started by initiating the method once the command was detected. In this case, it sees when the user presses the run keys (gesture), sends it through to carry out the action, and adds a ‘run’ or ‘stop’ message depending on the command. I then added a ui message to go with it, which allows the screen reader to read the message out loud. This is how the NVDA handles inputs (user commands) and outputs (UI messages).</p>
+
+<span class="image fit"><img src="images/stopcomm.png" alt="" /></span>
+
+
+<h2>Conclusion</h2>
+<p>Throughout the process, I found that I had to restart the programs every time I changed the code, which also meant I had to restart NVDA so they could sync up correctly. I often ran into problems where I would search my code for issues and it ended up getting solved with saving my program, restarting the IDE, or restarting JAB. Similarly, I found that the professional version of PyCharm takes a bit of time to initialize and waiting a few minutes would be the key to allow the screen reader and add-on to work properly.
+The combination of NVDA and JAB enables custom scripts and is used by many, but it is not a smooth process– the JAB program itself comes with a huge variety of packages and tools which is why it’s used by both beginners and advanced users. But the learning curve is steep and as someone who is able to use both sight and sound to develop this add-on, it took a lot of trial and error, and mental checking/organizing to be able to make a very simple add-on. This shows the sheer amount of effort and extra work blind programmers have to do to be able to get just a few of the basic elements that programmers need and rely on all the time.  </p>
+
+<h3> REFERENCES </h3>
+<ol> <li>K. Albusays, S. Ludi, M. Huenerfauth, “Interviews and Observation of Blind Software Developers at Work to Understand Code Navigation Challenges,” in Proc. of the 19th International ACM SIGACCESS Conference on Computers and Accessibility, ASSETS 2017, October 20 - November 1 2017, Baltimore, Maryland, USA </li>
+<li>Catherine M. Baker, Lauren R. Milne, and Richard E. Ladner. 2015. StructJumper: A Tool to Help Blind Programmers Navigate and Understand the Structure of Code. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 3043-3052. DOI: https://doi.org/10.1145/2702123.2702589 </li>
+<li>Lauren R. Milne. 2017. Blocks4All: making block programming languages accessible for blind children. SIGACCESS Access. Comput. 117 (February 2017), 26-29. DOI: https://doi.org/10.1145/3051519.3051525 </li>
+<li>A. Stefik, A. Haywood, S. Mansoor, B. Dunda and D. Garcia, "SODBeans," 2009 IEEE 17th International Conference on Program Comprehension, Vancouver, BC, 2009, pp. 293-294. doi: 10.1109/ICPC.2009.5090064</li>
+</ol>
+
+
+
+<span class="image fit"><img src="images/tools.png" alt="" /></span>
+
+My add-on can be found <a href="https://github.com/wangamelia/nvdaproj"> here. </a>
 <br>
-<h2>User Interface Report</h2>
+​<br>
 
-								<p> We went into this project knowing we wanted to optimize the site's layout for mobile-- our user analytics revealed that smartphones are where we get most of our site traffic. With this in mind, I've written a user interface report to evaluate the state of the site layout before redesigning and identify actions for improvement. The report can be found here: </p>
+For more details about my time in Iowa, including final presentations and project reports,
 
-										<ul class="actions">
-											<li><a href="UIR.pdf" class="button primary">View report</a></li>
-											</ul>
-								<p></p>
-<br><br>
-								<h2>Content and Information Architecture</h2>
-								<p>UWild contains seven pages-- including homepage, five sidebar categories, and one nested page. Below are initial notes on the structure of these pages.</p>
-								<div class="row gtr-uniform">
-								<div class="col-1"><span class="image fit"><img src="" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/table.png" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="images/UWILDnotes.jpeg" alt="" /></span></div>
-								</div>
+<a href="http://wangamelia.github.io/iowa"> please visit my DREU blog. </a>
+ 
+						</section>
 
-<br>
-<br>
-<h2>Final Layout Changes/Reflection</h2>
-A comparison of the before and after can be found below. The final redesign focuses on:
-												<ul>
-													<li>communication through visuals</li>
-													<li>combination of like pages and content</li>
-													<li>cutting less relevant content</li>
-													<li>use of photo headers to complement mobile scrolling</li>
-													<li>bringing content and design up to brand standards</li>
-												</ul>
-
-
-
-
-
-
-<span class="image left"><img src="images/uwildbefore.png" alt="" /></span>
-<span class="image right"><img src="images/uwildafter.png" alt="" /></span>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 					</div>
 
 				<!-- Footer -->
