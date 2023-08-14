@@ -6,6 +6,66 @@
 -->
 <html>
 	<head>
+		<!-- HTML !-->
+
+<style>
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+</style>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99083997-2"></script>
 <script>
@@ -59,6 +119,8 @@
 
 <b>Research</b><p>First, we conducted a brief literature review, which can be found in our project proposal. From this initial research, our team found studies involving LMS metrics and optimization and research on cognitive load for web design, but did not find a research study that combined both topics. With this in mind, our capstone project serves as a new addition to the research space of LMS by examining the cognitive load of such systems with a human-centered approach rather than a metric-based one.
 
+	<div class="col-12"><span class="image fit"><img src="images/canvasbrainstorm.png" alt="" width="70%"/></span></div>
+
 	Utilizing insights from our review, we brainstormed potential solutions to solve for key business and user requirements to generate concrete and viable options that we could potentially design for. We will dissect our design requirements and translate them into “How might we” questions. These questions serve as prompts for us to generate as many possibilities to solve for our design requirements. After completing our generative brainstorming sessions, we needed to narrow down our ideas into concrete potential workflows. In order to accomplish this, we utilized our “how might we” questions and voted on the top 5 ideas that were the best prospective solutions as indicated below:
 	<li>Avatar Based Gamification</li>
 	<li>General Gamification with achievements/competition/rewards</li>
@@ -80,58 +142,38 @@ From there, we created user flows depicting the major interactions that our user
 								<li> <b>Participants have experience taking an online college-level course.</b> As we sought to evaluate students’ experiences and cognitive load with online learning, it was necessary for students to be experienced in an online course environment.</li>
 
 Findings
-From informal concept testing, our results showed that participants were most interested in seeing us incorporate study groups, instant messaging, and/or stack overflow into canvas. From here, we created user flows for each proposed feature and presented them to our advisor, Regina, to further refine our scope. From this presentation, we used the feedback to focus on study groups which we designed wireframes for.
+We finalized our research findings and successfully presented them to our sponsor. We then moved into the ideation and initial design phases for an exploratory redesign of Canvas. This included a round of informal concept testing to help refine what ideas we developed. 
 
+From informal concept testing, our results showed that participants were most interested in seeing us incorporate study groups, instant messaging, and/or stack overflow into canvas. From here, we created user flows for each proposed feature and presented them to our advisor to further refine our scope. From this presentation, we used the feedback to focus on study groups which we designed wireframes for.
 
-We finalized our research findings and successfully presented them to our sponsor. We then moved into the ideation and initial design phases for an exploratory redesign of Canvas. This included a round of informal concept testing to help refine what ideas we developed. We then created user flows from our results to inform our low and medium fidelity prototypes.
+<div class="col-12"><span class="image fit"><img src="images/canvasuserflow.png" alt="" width="50%"/></span></div>
+
+<div class="col-12"><span class="image fit"><img src="images/canvaslowfidelity.png" alt="" width="50%"/></span></div>
+
+<section>
+Final Study
+
+	We conducted moderated remote usability studies. For the usability test, our team crafted a scenario along with guiding tasks and questions based on our objectives. We wanted to explore student’s perspectives of our proposed Canvas feature for study groups. We designed a script with broad tasks and questions for the participants and asked them to explore the feature’s onboarding and main interactions as if they were a student being introduced to it. We designed the usability testing with flexibility as well, giving the moderator and notetakers the option to explore any interesting thoughts or interactions our participants may have expressed.</section>
+
+	To qualitatively analyze the data, we grouped feedback from participants based on task. As a team, we approached these tasks as areas of focus for our analysis. We recorded their comments/behaviors for each task into a table to organize and prioritize observations that showed up the most. Finally, we used this table to figure out the level of priority for each issue/behavior that was recorded.
+
+	With the results from our testing, we sought to operationalize the feedback into design improvements. As a team, we worked to create a list of changes in our design that would address the feedback we felt was most important. Most of our focus resulted around refining and clarifying content, and keeping a cohesive but refreshed branding. Full list along with all other documents is outlined in our report linked at the bottom of the page. 
+
+<section> 
+FINAL MOCKUPS 
+
+	The high fidelity mockups serve as our final deliverable for our exploratory design of Canvas. Below are some example figures showcasing features of our feature, study groups:
 
 <div class="col-12"><span class="image fit"><img src="images/canvasmatch.png" alt="" width="70%"/></span></div>
-										<div class="row">
 
-											<div class="col-6 col-12-medium">
-											<b>QUICK EVALUATIONS</b>
+<div class="col-12"><span class="image fit"><img src="images/groupannouncements.png" alt="" width="70%"/></span></div>
+									
 
-<p>We tested our paper prototype with four participants to see what could be improved when creating wireframes. Although they had no experience with social work, the testing was still valuable because it revealed design and functionality issues.
+Thank you to UW Continuum College and UW HCDE for your guidance and support! 
+<button class="button-4" role="button">Button 4</button>
+<button class="button-4" role="button">Button 4</button>
 
-​​
 
-One main issue was with our use of icons. While some were conventional (such as a home button), the icons associated with the more unique functions of our app - such as a workplace - were often misinterpreted. However for most of the screens, users expressed a high level of comfort or familiarity because the placement of buttons and prompts were similar to other apps.</p>
-												<ul class="actions">
-													<li><a href="images/318eval.pdf" class="button primary">View writeup</a></li>
-												</ul>
-												</div>
-
-											<div class="col-6 col-12-medium">
-											<b>ANNOTATED WIREFRAMES</b>
-
-<p>Using participant feedback on our paper prototype, we proceeded to wireframe our entire system. This was the culmination of our entire process, and it was exciting to bring our ideas to life! Along the way, we discovered it was hard to limit which features to include, but learned that the user should be at the forefront of our priorities, not ourselves. We found it helpful to refer back to documents from our research stage when considering users' needs.</p>
-<br>
-<br>
-<br>
-												<ul class="actions">
-													<li><a href="images/318wireframes.pdf" class="button primary">View wireframes</a></li>
-												</ul>
-											</div>
-											</div>
-
-											<b>HIGH FIDELITY MOCK UPS</b>
-
-For the final step of our project, we made high-fidelity mockups of three screens that show the app's core functions. Each of these screens demonstrates how  C [ A I ] R E  promotes self-care:
-<div class="col-12"><span class="image fit"><img src="images/mockups-actions.png" alt=""/></span></div>
-
-<p>The first is the home page where the user can add an emergent case and receive AI scheduling suggestions; the second is a calendar with AI scheduling suggestions; and the last is the user's health dashboard where they complete mindfulness activities and view their progress.</p>
-<br>
-
-<h2> Reflection </h2>
-
-<p>Something we learned was that small decisions add up and can greatly impact the design process later on. An instance of this occurred early on in our project right after user interviews. As we progressed through the user-centered process, some of us found that we needed to ask our users more questions about issues not covered in our first (and only) round of interview questions. This may have been a problem due to the context in which this project was created - a ten-week class in an undergraduate program. Perhaps in the real industry, we could conduct several rounds of user research and even different kinds of research aside from interviews.</p>
-
-​
-
-<p>WHAT WE WOULD DO DIFFERENTLY?<br>
-Although we conducted user research at the beginning of our project, real social workers saw no other part of our design process. Their feedback would have been helpful at many times in the project, such as during paper prototyping/evaluation. This was again due to the fact that the project was created in a mere ten-week college course. If we did this project again, we would want to get more input from social workers throughout our design process, not just during research. This would encourage our project to be highly empathetic and user-centered, as it should be.</p>
- 
-						</section>
 
 					</div>
 
