@@ -1,88 +1,41 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Generic - Stellar by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <meta charset="utf-8">
+  <title>My YouTube Portfolio</title>
+  <style>
+    .video-grid { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .video-card { width: 300px; }
+    .video-card iframe { width: 100%; height: 170px; }
+    .video-card .views { font-size: 0.9rem; color: #555; margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Videos I’ve Worked On</h1>
+  <div class="video-grid">
+    <div class="video-card" data-video-id="dQw4w9WgXcQ">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              frameborder="0" allowfullscreen></iframe>
+      <p class="views">Loading…</p>
+    </div>
+    <!-- repeat .video-card blocks with other IDs -->
+  </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-<!-- Header -->
-					<header id="header" class="alt">
-						<h1>Youtube Production</h1>
-						<p>Below are examples of content I've worked on, including custom topics, investigative research, and script writing. Currently open to new clients!</a><br />
-      <p>
-      	<a href="http://wangamelia.github.io/index.html">
-						<span class="icon solid style5 fa fa-home"></span>
-						 </a> 
-        <a href="http://wangamelia.github.io/images/WangAmeliaResume.pdf">Resume</a> | 
-        <a href="pub.html">Publications</a>
-      </p>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Content -->
-							<section id="content" class="main">
-								<h2>For further details on my contributions, you can email me and we can schedule a chat!</h2>
-								<p>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/3QTdLjGefAY?si=jBwdlTrrQpE26utd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-								</p>
-								<p>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/LWVF6DQfL08?si=pX-reiQz840BUl9O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-								</p>
-								<p>
-
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/TSWY0e9_QJc?si=jMlzAsTSCJY4Rgce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-								</p>
-								<p>
-
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/QYUZGcx2UhM?si=tZ1x4e6_3ssMVh4F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LWVF6DQfL08?si=Jth-mOZrB_YzIQID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							</p>
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					
-					<footer id="footer">
-						<section>
-							<h2>contact</h2>
-							<dl class="alt">
-								<dt>LinkedIn</dt>
-								<dd> <a href=https://linkedin.com/in/wangamelia/>/wangamelia </a></dd>
-								<dt>Email</dt>
-								<dd><a href="#">ameliawang35@gmail.com</a></dd>
-							</dl>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <script>
+    const API_KEY = 'YOUR_API_KEY';
+    async function updateViewCounts() {
+      const cards = [...document.querySelectorAll('.video-card')];
+      const ids = cards.map(c => c.dataset.videoId).join(',');
+      const resp = await fetch(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${ids}&key=${API_KEY}`);
+      const json = await resp.json();
+      json.items.forEach(item => {
+        const card = document.querySelector(`[data-video-id="${item.id}"]`);
+        card.querySelector('.views').textContent =
+          `${Number(item.statistics.viewCount).toLocaleString()} views`;
+      });
+    }
+    updateViewCounts();
+    setInterval(updateViewCounts, 300_000); // every 5 minutes
+  </script>
+</body>
 </html>
