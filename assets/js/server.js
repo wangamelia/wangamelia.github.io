@@ -1,11 +1,4 @@
 // server.js
-require('dotenv').config();   // ← this loads .env into process.env
-
-const express = require('express');
-// now you can safely pull from process.env:
-const { YOUTUBE_API_KEY: key, PORT = 3000, CACHE_TTL = 300 } = process.env;
-
-// server.js
 require('dotenv').config();
 const express = require('express');
 const fetch = require('node-fetch');
